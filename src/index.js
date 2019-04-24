@@ -18,11 +18,11 @@ const strongTyped = (types, fn) => {
   }
 
   let isValidType = (value, type, argIndex) => {
-    switch (type) {
+    switch (type.toLowerCase()) {
       case ANY :
         return true;
       case DATE :
-        if (value instanceof DATE) {
+        if (typeof value === OBJECT && value instanceof DATE) {
           return true;
         }
         break;
@@ -64,7 +64,7 @@ const strongTyped = (types, fn) => {
       default :
         throw new Error(`Unsupported type found in argument ${argIndex + 1}, supported types are ${staticTypes.toString()}`);
     }
-    throw new Error(`Expected argument ${argIndex + 1} to be of type ${type}`);
+    throw new Error(`Expected argument ${argIndex + 1} to be of type '${type}'`);
   };
 
   return (...args) => {

@@ -1,11 +1,12 @@
 {
   "name": "strong-typed",
-  "version": "0.0.1",
-  "description": "A type checking javascript library",
+  "version": "0.1.0",
+  "description": "A runtime type-checking library for javascript",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "repository": {
