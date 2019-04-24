@@ -1,6 +1,6 @@
 {
   "name": "strong-typed",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A runtime type-checking library for javascript",
   "main": "src/index.js",
   "scripts": {
@@ -9,6 +9,13 @@
     "prepublish": "npm run build",
     "test": "jest"
   },
+  "keywords": [
+    "static-types",
+    "javascript-library",
+    "type-checking",
+    "type-check",
+    "strong-typed"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/giorgosart/strong-typed.git"
