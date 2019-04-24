@@ -1,1 +1,1 @@
-# strong-type
+# strong-typed
