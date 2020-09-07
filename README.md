@@ -20,7 +20,7 @@ Strong-typed takes two arguments:
 | Fn        | function | The javascript function to be type checked                                                                                                                                                                                                |
 ### Examples
 ```
-import strongTyped, {Types}  'strong-typed';
+import strongTyped, {Types} from 'strong-typed';
 
 const myFunc = st([Types.STRING], (a) => { console.log(a) });
 
