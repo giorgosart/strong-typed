@@ -1,13 +1,13 @@
 {
   "name": "strong-typed",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A runtime type-checking library for javascript",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "prepublish": "npm run build",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "static-types",
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/giorgosart/strong-typed#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "babel-loader": "^8.0.5",
-    "jest": "^24.7.1",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.4.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }

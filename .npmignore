@@ -1,0 +1,9 @@
+src/
+.babelrc
+.npmignore
+LICENSE
+.github
+.idea
+coverage
+README.md
+webpack.config.js
