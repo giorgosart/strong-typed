@@ -1,7 +1,6 @@
-src/
+src/*
 .babelrc
 .npmignore
-LICENSE
 .github
 .idea
 coverage
